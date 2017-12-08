@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>The Shoepermarket</title>
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="stylesheets/screen.css">
+
+<!--[if IE]>
+<script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<!--Navigation-->
+<header class="navbar navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="xs-search visible-xs"></a>
+            <a class="logo navbar-brand" href="#">Project name</a>
+        </div>
+        <!--Search-->
+        <form class="header_search navbar-form" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control srch_box" placeholder="Search ex: Product Code, Name , Brand, Size">
+                <button type="submit" class="btn btn-default srch_submit"><span class="glyphicon glyphicon-search"></span></button>
+            </div>
+        </form>
+        
+        <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Shop</a></li>
+            <li><a href="#about">Sell</a></li>
+            <li><a href="#contact">About Us</a></li>
+        </ul>
+        </div><!--.nav-collapse -->
+        
+        
+    </div>
+</header>
+
+<!--Content Section-->
+<div class="container">
+    <div class="row">
+        <!--Left Section-->
+        <div class="col-sm-7 col-md-9">
+            <!--Create Account Form-->
+            <div class="pg_9clmn">
+                <h1>Create Account</h1>
+                <h2>You are just 60 Sec away from your ShoperMarket account</h2>
+                <div class="form_content">
+                    <div class="col-sm-12 col-md-3">
+                        <span>Enter Your Name</span>
+                    </div>
+                    <div class="col-sm-12 col-md-9">
+                        <input type="text" class="txt_box_name" placeholder="First Name">
+                        <input type="text" class="txt_box_name" placeholder="Last Name">
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <span>Create Password</span>
+                    </div>
+                    <div class="col-sm-12 col-md-9">
+                        <input type="password" class="txt_box" placeholder="Enter your password">
+                        <label class="label_btm">Min 6 characters</label>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <span>Enter Username</span>
+                    </div>
+                    <div class="col-sm-12 col-md-9">
+                        <input type="text" class="txt_box" placeholder="Enter a username">
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <span>Your Email ID</span>
+                    </div>
+                    <div class="col-sm-12 col-md-9">
+                        <input type="text" class="txt_box" placeholder="Enter your email address">
+                        <label class="label_btm"><a href="#" data-toggle="tooltip" title="Some tooltip text!" id="example">PayPal Email</a></label>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <span>ZIP Code</span>
+                    </div>
+                    <div class="col-sm-12 col-md-9">
+                        <input type="text" class="txt_box" placeholder="Enter your ZIP code">
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <span>Mobile Number</span>
+                    </div>
+                    <div class="col-sm-12 col-md-9">
+                        <input type="text" class="txt_box" placeholder="Enter your mobile number">
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <span>Facebook</span>
+                    </div>
+                    <div class="col-sm-12 col-md-9">
+                        <input type="text" class="txt_bx_social" placeholder="Enter your facebook profile">
+                        <img src="images/icons/fb.png" class="social_icon_img">
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <span>Twitter</span>
+                    </div>
+                    <div class="col-sm-12 col-md-9">
+                         <input type="text" class="txt_bx_social" placeholder="Enter your twitter profile">
+                        <img src="images/icons/txt_bx_ttr.png" class="social_icon_img">
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <span>Instagram</span>
+                    </div>
+                    <div class="col-sm-12 col-md-9">
+                         <input type="text" class="txt_bx_social" placeholder="Enter your instagram profile">
+                        <img src="images/icons/txt_bx_instagram.png" class="social_icon_img">
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <span>YouTube</span>
+                    </div>
+                    <div class="col-sm-12 col-md-9">
+                         <input type="text" class="txt_bx_social" placeholder="Enter your youtube channel link">
+                        <img src="images/icons/txt_bx_youtube.png" class="social_icon_img">
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <span>Upload Profile Picture</span>
+                    </div>
+                    <div class="col-sm-12 col-md-9">
+                        <div class="fileUploader">
+                        <div class="btnUp btn-success fileinput-button">
+                            <i class="glyphicon glyphicon-plus"></i>
+                            <div>Select files...</div>
+                            <input id="fileupload" type="file" name="files[]" multiple>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="col-sm-12 col-md-3">
+                        <span></span>
+                    </div>
+                    <div class="col-sm-12 col-md-9">
+                        <img src="images/progile_pic.png">
+                    </div>
+                    
+                    <div class="col-sm-12 col-md-3"></div>
+                    <div class="col-sm-12 col-md-9">
+                        <button type="submit" class="btn_createAccount">Create Account</button>
+                        <button type="submit" class="btn_clearForm">Cancel</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!--Right Section-->
+        <div class="col-sm-5 col-md-3">
+            <!--Account Login-->
+            <div class="account_login">
+                <div class="content">
+                    <h1>login</h1>
+                    <!--Login-->
+                    <div class="form-group">
+                        <input type="text" class="form-control txt_bx" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control txt_bx" placeholder="Password">
+                    </div>
+                    <div class="checkbox">
+                        <label class="pull-left">
+                          <input type="checkbox" class="chk_box"> Remember Me
+                        </label>
+                        <span class="pull-right"><a href="#">Need Help?</a></span>
+                    </div>
+                    <button type="submit" class="btn btn-default btn_signIn">sign in</button>
+                    <!--Or-->
+                    <div class="or-spacer">Or</div>
+
+                    <!--login eith social-->
+                    <div class="btn_signIn-twitter">
+                        <a href="#">Sign in with twitter</a>
+                    </div>
+                    <div class="btn_signIn-facebook">
+                        <a href="#">Sign in with Facebook</a>
+                    </div>
+                </div>
+                <div class="btn_signUp">
+                    <a href="#">Create an Account</a>
+                </div>
+            </div>
+            
+            <!--Testimonials-->
+            <div class="right_testimonials">
+                <h1>what other say</h1>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.
+                </p>
+                <h2>C Galvin</h2>
+                <span>Designation</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+<!--Footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+                    <img src="images/icons/footer_logo.png" alt="The ShoperMarket">
+                    <span class="visible-sm visible-md visible-lg">© 2014 <a href="#">theshopermarket.com</a></span>
+            </div>
+            <div class="col-sm-7">
+                <div class="footer_menu">
+                    <a href="#">home</a>
+                    <a href="#">shop</a>
+                    <a href="#">sell</a>
+                    <a href="#">about us</a>
+                    <a href="#">advertising</a>
+                    <a href="#">contact us</a>
+                    <a href="#">privacy policy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="js/common.js"></script>
+<!-- The jQuery UI widget factory, can be omitted if jQuery UI is already included -->
+<script src="js/jquery.ui.widget.js"></script>
+<!-- The basic File Upload plugin -->
+<script src="js/jquery.fileupload.js"></script>
+<script type="text/javascript">
+/*jslint unparam: true */
+/*global window, $ */
+$(function () {
+    'use strict';
+    // Change this to the location of your server-side upload handler:
+    var url = window.location.hostname === 'blueimp.github.io' ?
+                '//jquery-file-upload.appspot.com/' : 'server/php/';
+    $('#fileupload').fileupload({
+        url: url,
+        dataType: 'json',
+        done: function (e, data) {
+            $.each(data.result.files, function (index, file) {
+                $('<p/>').text(file.name).appendTo('#files');
+            });
+        },
+        progressall: function (e, data) {
+            var progress = parseInt(data.loaded / data.total * 100, 10);
+            $('#progress .progress-bar').css(
+                'width',
+                progress + '%'
+            );
+        }
+    }).prop('disabled', !$.support.fileInput)
+        .parent().addClass($.support.fileInput ? undefined : 'disabled');
+});
+</script>
+</body>
+</html>

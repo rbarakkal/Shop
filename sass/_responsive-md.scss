@@ -1,0 +1,281 @@
+@media (min-width: $screen-md-min) { 
+    body{
+        padding-top: 110px;
+    }
+    .btnBlue {
+                    margin:10px 9px 10px 0;
+                    padding: 12px 0;
+                    width: 20%;
+                }
+    .navbar{
+        padding:15px;
+        .logo{
+            width:230px;
+            height: 40px;
+            display: inline-block;
+            text-indent: -9999px;
+            background: url('../images/shoper_market.png') no-repeat center top;
+            border:none;
+	    }
+        .navbar-brand {
+            margin-top:5px;
+            margin-right:0px;
+        }
+        ul {
+            color: $menu-normal;
+            margin: 0; padding: 0;
+            font-weight: 500;
+            font-size: 15px;
+            float: right;
+        }
+        .header_search {
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+            float: right;
+            top: 5px;
+            .srch_box {
+                 background:rgba(255,255,255,.0);
+                 box-shadow: none;
+                 border: none;
+                 width: 100%;
+                 padding: 10px;
+                 height: 40px;
+                 font-weight: 400;
+                 @include border-radius(3px);
+                 background:#fff;
+                 border: solid 1px #efefef;
+                 width:360px;
+            }
+            .srch_submit {
+                border: none;
+                background: none;
+                color:$menu-normal;
+                position: absolute;
+                right:0;
+                top:4px;
+                &:hover {
+                    color: $menu-over;
+                }
+            }
+        }
+    }
+    
+    footer {
+        .footer_menu {
+            margin:0px;
+            padding:12px 0 0 0;
+            text-transform: uppercase;
+        }
+    }
+    
+    //Create Account
+    .pg_9clmn {
+            h2 {
+                font-size: 16px;
+            }
+            .form_content {
+                span {
+                    margin: 0px;
+                    padding: 22px 0;
+                    display: block;
+                    box-sizing: border-box;
+                    text-align: right;
+                }
+                .txt_box_name {
+                    margin:10px 9px 10px 0;
+                    padding: 12px 12px; 
+                    width: 39%;
+                }
+                .txt_box {
+                    margin:10px 0;
+                    padding: 12px 12px; 
+                    width: 80%;
+                    box-sizing: border-box;
+                }
+                .txt_bx_social {
+                    margin:10px 0;
+                    padding: 12px 12px 12px 52px; 
+                    width: 80%;
+                }
+                .social_icon_img {
+                    position: absolute;
+                    top: 6px;
+                    left: 16px;
+                    border: none;
+                    outline: 0;
+                }
+                .btn_createAccount {
+                    margin:10px 9px 10px 0;
+                    padding: 12px 0;
+                    width: 30%;
+                }
+                .btn_clearForm {
+                    margin:10px 9px 10px 0;
+                    padding: 12px 0;
+                    width: 30%;
+                }
+            }
+
+        }
+    
+    //Inbox 
+        .inbox_pagination {
+                margin:0px;
+                float: right;
+                width: 70px;
+                label {
+                    padding-right:5px;
+                }
+            }
+    
+    //The Profile-Tabs
+    .profile_tabs {
+        margin: 15px 0 0 0;
+        padding: 0px 0px;
+        height: auto;
+        overflow: hidden;
+        background: #fafafa;
+        @include border-radius(3px);
+        .nav-tabs {
+            background: #f5f5f5;
+            li{
+                a {
+                    outline: none;
+                    padding: 15px 30px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #999999;
+
+                }
+                .active {
+                    color: $black;
+                }
+            }
+        }
+        .content_tab{
+            .drop_down {
+               margin:0px;        
+            }
+        }
+    }
+    
+    //Sell Page
+    .sell_page {
+        .sell-tab-content{
+            .form_content {
+                span {
+                    margin:0px;
+                    padding: 18px 20px 8px 0px;
+                    font-size: 14px;
+                    color: #3e3e3f;
+                    display: inline;
+                    width:145px;
+                    font-weight: 400;
+                }
+                .txt_box {
+                    width: 270px;
+                }
+                .txt_box_tiny {
+                    width: 180px;
+                }
+                .txt_area {
+                    width: 270px;
+                }
+                .drop_down {
+                    width:270px;
+                    .caret {
+                       padding: 0px;
+                       margin-top: 10px;
+                       width:5px;
+                    }
+                }
+                a {
+                    padding-top:15px;
+                    padding-left: 10px;
+                    }
+                .uploadImg_Plugin {
+                    width:270px;
+                }
+                .your_cost {
+                    WIDTH:270px;
+                }
+                .btnSubmit {
+                    margin-left:145px;
+                }
+            }
+        }
+    }
+    
+    
+    //ProductDetails 
+    .product_detail_page {
+        .product_image_section {
+            img {
+                border:solid 1px #dfdede;
+                @include border-radius(2px);
+            }
+            .btnReportItem {
+                width: 150px;
+                }
+        }
+        .product_detail_section {
+            h1 {
+                padding: 0px 0 15px 0;
+            }
+            .detail_tbl_col {
+                margin:10px 0px;
+                padding: 0px 0px;
+                width: 50%;
+                float: left;
+                .make_an_offer {
+                    width: 150px;
+                }
+            }
+            .col-full {
+                width: 100%;
+            }
+            .text-half-md {
+                width: 155px;
+            }
+            .btnBuy {
+                width: 150px;
+                float: left;
+                }
+
+            .or_line {
+                label {
+                    left: 42%;
+                }
+            }
+            .detail_tbl_col_purchase {
+                margin:8px 0px;
+                padding: 0px 0px;
+                width: 100%;
+                float: left;
+                h2 {
+                    font-size:16px;
+                    font-weight: 300;
+                    color: #999999;
+                    margin: 0px;
+                    padding: 0px 0 3px 0;
+                    width: 120px;
+                    float: left;
+                }
+                label {
+                    font-weight: 12px;
+                    font-weight: 400;
+                    color: #666666;
+                    margin: 0px;
+                    padding: 0px 0px;
+                    display: inline;
+                    float: left;
+                }
+                .btnPayPal {
+                    width: 200px;
+                }
+            }
+        }
+    }
+
+}

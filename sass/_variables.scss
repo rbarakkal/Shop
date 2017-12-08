@@ -1,0 +1,27 @@
+//Fonts//
+$font-family-base  : 'Roboto', sans-serif;
+$icon-font-path: if($bootstrap-sass-asset-helper, "bootstrap/", "../fonts/bootstrap/") !default;
+
+//Colors//
+$white         : #ffffff;
+$hdr-btm       : #f7f7f7;
+$menu-normal   : #666666;
+$menu-over     : #1b9acf;
+$main-ttl-blue : #1b9acf;
+$black         : #000000;
+$footer        : #242424;
+$footer-text   : #999999;
+$light-white   : #f7f7f7;
+$badge-blue    : #3498db;
+$badge-red     : #c0392b;
+$inner-ttl-blue : #1498ce;
+
+@mixin box-shadow($shadows...) {
+  -moz-box-shadow: $shadows;
+  -webkit-box-shadow: $shadows;
+  box-shadow: $shadows;
+}
+
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}

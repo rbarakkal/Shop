@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>The Shoepermarket</title>
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="stylesheets/screen.css">
+
+<!--[if IE]>
+<script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<!--Navigation-->
+<header class="navbar navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="xs-search visible-xs"></a>
+            <a class="logo navbar-brand" href="#">Project name</a>
+        </div>
+        <!--Search-->
+        <form class="header_search navbar-form" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control srch_box" placeholder="Search ex: Product Code, Name , Brand, Size">
+                <button type="submit" class="btn btn-default srch_submit"><span class="glyphicon glyphicon-search"></span></button>
+            </div>
+        </form>
+        
+        <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Shop</a></li>
+            <li><a href="#about">Sell</a></li>
+            <li><a href="#contact">About Us</a></li>
+        </ul>
+        </div><!--.nav-collapse -->
+        
+        
+    </div>
+</header>
+
+<!--Content Section-->
+<div class="container">
+    <div class="row">
+        <!--Profile Left Section-->
+        <div class="col-sm-5 col-md-3">
+        <div class="profile_feedback_left">
+            <div class="profile_pic_details">
+                <img src="images/prodile_img.jpg" class="img-responsive">
+                <div class="div_usrname">
+                    JStar25
+                </div>
+                <div class="memberSince">
+                    Profile Rating <span>99%</span>
+                </div>
+                <div class="pro_details">
+                    <span>Member Since <label>03/2013</label></span>
+                    <span>Located: <label>Wisconsin, US</label></span>
+                    <div class="social_icons"> 
+                        <a href="#"><img src="images/icons/icon_youtube.png" alt="Youtube"></a>
+                        <a href="#"><img src="images/icons/icon_twitter.png" alt="Twitter"></a>
+                        <a href="#"><img src="images/icons/icon_instagram.png" alt="Instagram"></a>
+                        <a href="#"><img src="images/icons/icon_facebook.png" alt="Facebook"></a>
+                    </div>
+                    <p>
+                    This area will be for the user to enter a little information about themselves, kind of a short intro to help them build consumer confidence in them
+                    </p>
+                </div>
+            </div>
+        </div>    
+        </div>
+        
+        <!--Right Section-->
+        <div class="col-sm-7 col-md-9">
+            <div class="profile_feedback_right">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                  <li role="presentation" class="active"><a href="#seller" role="tab" data-toggle="tab">Seller <label>(99%)</label></a></li>
+                  <li role="presentation"><a href="#buyer" role="tab" data-toggle="tab">Buyer <label>(100%)</label></a></li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div role="tabpanel" class="tab-pane fade in active" id="seller"><!--Seller Content-->
+                        <div class="tab_header">
+                            <div class="col-sm-12 col-md-5"><span class="fdbk_ttl">JSTAR25 <label>(99%)</label></span></div>
+                            <div class="col-sm-12 col-md-2">
+                                <div class="feedback_note">
+                                    <div class="color_box color_postive pull-left"></div><span>Positive <label class="pull-right">25</label></span>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-2">
+                                <div class="feedback_note">
+                                    <div class="color_box color_negative pull-left"></div><span>Negative <label class="pull-right">1</label></span>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-3">
+                                <div class="feedback_note">
+                                    <div class="color_box color_totalItems pull-left"></div><span>Total Item Sold <label class="pull-right">26</label></span>
+                                </div>
+                            </div>
+                        </div>
+                      <div class="clear"></div>
+                        <!--Fedback List-->
+                        <div class="col-md-12">
+                            <div class="feedback_list">
+                            <ul>
+                                <li>
+                                    <span class="lbl_notify-box"><label class="color_box"></label></span>
+                                    <label class="lbl_Fdbck_ttl fdbk_ttl">Feedback</label>
+                                    <label class="lbl_user fdbk_ttl">User</label>
+                                    <label class="lbl_date fdbk_ttl">Date</label>
+                                </li>
+                                <li>
+                                    <span class="lbl_notify-box"><label class="color_box color_postive"></label></span>
+                                    <label class="lbl_Fdbck_ttl">Shoes were perfect, highly recommend!</label>
+                                    <label class="lbl_user">John</label>
+                                    <label class="lbl_date">Oct 15, 2014</label>
+                                </li>
+                                <li>
+                                    <span class="lbl_notify-box"><label class="color_box color_postive"></label></span>
+                                    <label class="lbl_Fdbck_ttl">Shoes were perfect, highly recommend!</label>
+                                    <label class="lbl_user">John</label>
+                                    <label class="lbl_date">Oct 15, 2014</label>
+                                </li>
+                                <li>
+                                    <span class="lbl_notify-box"><label class="color_box color_postive"></label></span>
+                                    <label class="lbl_Fdbck_ttl">Shoes were perfect, highly recommend!</label>
+                                    <label class="lbl_user">John</label>
+                                    <label class="lbl_date">Oct 15, 2014</label>
+                                </li>
+                                <li>
+                                    <span class="lbl_notify-box"><label class="color_box color_postive"></label></span>
+                                    <label class="lbl_Fdbck_ttl">Shoes were perfect, highly recommend!</label>
+                                    <label class="lbl_user">John</label>
+                                    <label class="lbl_date">Oct 15, 2014</label>
+                                </li>
+                                <li>
+                                    <span class="lbl_notify-box"><label class="color_box color_postive"></label></span>
+                                    <label class="lbl_Fdbck_ttl">Shoes were perfect, highly recommend!</label>
+                                    <label class="lbl_user">John</label>
+                                    <label class="lbl_date">Oct 15, 2014</label>
+                                </li>
+                                <li>
+                                    <span class="lbl_notify-box"><label class="color_box color_postive"></label></span>
+                                    <label class="lbl_Fdbck_ttl">Shoes were perfect, highly recommend!</label>
+                                    <label class="lbl_user">John</label>
+                                    <label class="lbl_date">Oct 15, 2014</label>
+                                </li>
+                                <li>
+                                    <span class="lbl_notify-box"><label class="color_box color_postive"></label></span>
+                                    <label class="lbl_Fdbck_ttl">Shoes were perfect, highly recommend!</label>
+                                    <label class="lbl_user">John</label>
+                                    <label class="lbl_date">Oct 15, 2014</label>
+                                </li>
+                                <li>
+                                    <span class="lbl_notify-box"><label class="color_box color_postive"></label></span>
+                                    <label class="lbl_Fdbck_ttl">Shoes were perfect, highly recommend!</label>
+                                    <label class="lbl_user">John</label>
+                                    <label class="lbl_date">Oct 15, 2014</label>
+                                </li>
+                                <li>
+                                    <span class="lbl_notify-box"><label class="color_box color_postive"></label></span>
+                                    <label class="lbl_Fdbck_ttl">Shoes were perfect, highly recommend!</label>
+                                    <label class="lbl_user">John</label>
+                                    <label class="lbl_date">Oct 15, 2014</label>
+                                </li>
+                                <li>
+                                    <span class="lbl_notify-box"><label class="color_box color_negative"></label></span>
+                                    <label class="lbl_Fdbck_ttl">Shoes were perfect, highly recommend!</label>
+                                    <label class="lbl_user">John</label>
+                                    <label class="lbl_date">Oct 15, 2014</label>
+                                </li>
+                            </ul>
+                            </div>
+                        <!--Pagintaion-->
+                            <ul class="pagination pull-right">
+                                <li><a href="#">&laquo;</a></li>
+                                <li><a href="?p=0" data-original-title="" title="">1</a></li> 
+                                <li><a href="?p=1" data-original-title="" title="">2</a></li> 
+                                <li><a href="#">&raquo;</a></li>
+                            </ul>
+                      </div><!--end feedback list-->
+                  </div>
+                    
+                  <!--Buyer content-->
+                  <div role="tabpanel" class="tab-pane fade" id="buyer">
+                        <div class="tab_header">
+                            <div class="col-sm-12 col-md-5"><span class="fdbk_ttl">JSTAR25 <label>(100%)</label></span></div>
+                            <div class="col-sm-12 col-md-2">
+                                <div class="feedback_note">
+                                    <div class="color_box color_postive pull-left"></div><span>Positive <label class="pull-right">25</label></span>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-2">
+                                <div class="feedback_note">
+                                    <div class="color_box color_negative pull-left"></div><span>Negative <label class="pull-right">1</label></span>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-3">
+                                <div class="feedback_note">
+                                    <div class="color_box color_totalItems pull-left"></div><span>Total Item Sold <label class="pull-right">26</label></span>
+                                </div>
+                            </div>
+                        </div>
+                      <div class="clear"></div>
+                        <!--Fedback List-->
+                        <div class="col-md-12">
+                            <div class="feedback_list">
+                            <ul>
+                                <li>
+                                    <span class="lbl_notify-box"><label class="color_box"></label></span>
+                                    <label class="lbl_Fdbck_ttl fdbk_ttl">Feedback</label>
+                                    <label class="lbl_user fdbk_ttl">User</label>
+                                    <label class="lbl_date fdbk_ttl">Date</label>
+                                </li>
+                                <li>
+                                    <span class="lbl_notify-box"><label class="color_box color_postive"></label></span>
+                                    <label class="lbl_Fdbck_ttl">Shoes were perfect, highly recommend!</label>
+                                    <label class="lbl_user">John</label>
+                                    <label class="lbl_date">Oct 15, 2014</label>
+                                </li>
+                                <li>
+                                    <span class="lbl_notify-box"><label class="color_box color_postive"></label></span>
+                                    <label class="lbl_Fdbck_ttl">Shoes were perfect, highly recommend!</label>
+                                    <label class="lbl_user">John</label>
+                                    <label class="lbl_date">Oct 15, 2014</label>
+                                </li>
+                                <li>
+                                    <span class="lbl_notify-box"><label class="color_box color_postive"></label></span>
+                                    <label class="lbl_Fdbck_ttl">Shoes were perfect, highly recommend!</label>
+                                    <label class="lbl_user">John</label>
+                                    <label class="lbl_date">Oct 15, 2014</label>
+                                </li>
+                                <li>
+                                    <span class="lbl_notify-box"><label class="color_box color_postive"></label></span>
+                                    <label class="lbl_Fdbck_ttl">Shoes were perfect, highly recommend!</label>
+                                    <label class="lbl_user">John</label>
+                                    <label class="lbl_date">Oct 15, 2014</label>
+                                </li>
+                                <li>
+                                    <span class="lbl_notify-box"><label class="color_box color_postive"></label></span>
+                                    <label class="lbl_Fdbck_ttl">Shoes were perfect, highly recommend!</label>
+                                    <label class="lbl_user">John</label>
+                                    <label class="lbl_date">Oct 15, 2014</label>
+                                </li>
+                                <li>
+                                    <span class="lbl_notify-box"><label class="color_box color_postive"></label></span>
+                                    <label class="lbl_Fdbck_ttl">Shoes were perfect, highly recommend!</label>
+                                    <label class="lbl_user">John</label>
+                                    <label class="lbl_date">Oct 15, 2014</label>
+                                </li>
+                                <li>
+                                    <span class="lbl_notify-box"><label class="color_box color_postive"></label></span>
+                                    <label class="lbl_Fdbck_ttl">Shoes were perfect, highly recommend!</label>
+                                    <label class="lbl_user">John</label>
+                                    <label class="lbl_date">Oct 15, 2014</label>
+                                </li>
+                                <li>
+                                    <span class="lbl_notify-box"><label class="color_box color_postive"></label></span>
+                                    <label class="lbl_Fdbck_ttl">Shoes were perfect, highly recommend!</label>
+                                    <label class="lbl_user">John</label>
+                                    <label class="lbl_date">Oct 15, 2014</label>
+                                </li>
+                                <li>
+                                    <span class="lbl_notify-box"><label class="color_box color_postive"></label></span>
+                                    <label class="lbl_Fdbck_ttl">Shoes were perfect, highly recommend!</label>
+                                    <label class="lbl_user">John</label>
+                                    <label class="lbl_date">Oct 15, 2014</label>
+                                </li>
+                                <li>
+                                    <span class="lbl_notify-box"><label class="color_box color_negative"></label></span>
+                                    <label class="lbl_Fdbck_ttl">Shoes were perfect, highly recommend!</label>
+                                    <label class="lbl_user">John</label>
+                                    <label class="lbl_date">Oct 15, 2014</label>
+                                </li>
+                            </ul>
+                            </div>
+                        <!--Pagintaion-->
+                            <ul class="pagination pull-right">
+                                <li><a href="#">&laquo;</a></li>
+                                <li><a href="?p=0" data-original-title="" title="">1</a></li> 
+                                <li><a href="?p=1" data-original-title="" title="">2</a></li> 
+                                <li><a href="#">&raquo;</a></li>
+                            </ul>
+                      </div><!--end feedback list-->
+                  </div><!--End of Buyer Content-->
+                </div>
+
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+
+    
+<!--Footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+                    <img src="images/icons/footer_logo.png" alt="The ShoperMarket">
+                    <span class="visible-sm visible-md visible-lg">© 2014 <a href="#">theshopermarket.com</a></span>
+            </div>
+            <div class="col-sm-7">
+                <div class="footer_menu">
+                    <a href="#">home</a>
+                    <a href="#">shop</a>
+                    <a href="#">sell</a>
+                    <a href="#">about us</a>
+                    <a href="#">advertising</a>
+                    <a href="#">contact us</a>
+                    <a href="#">privacy policy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>
